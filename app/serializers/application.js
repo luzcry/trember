@@ -1,3 +1,3 @@
-import { LSSerializer } from 'ember-localstorage-adapter';
+import FirebaseSerializer from 'emberfire/serializers/firebase'
 
-export default LSSerializer.extend();
+export default class ApplicationSerializer extends FirebaseSerializer{}

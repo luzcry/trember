@@ -1,6 +1,6 @@
-import LSAdapter from 'ember-localstorage-adapter/adapters/ls-adapter';
+import FirestoreAdapter from 'emberfire/adapters/firestore';
 
-export default LSAdapter.extend({
-  namespace: 'trember'
+export default FirestoreAdapter.extend({
+  enablePersistence: true,
+  persistenceSettings: { synchronizeTabs: true }
 });
-Ñ

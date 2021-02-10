@@ -1,0 +1,22 @@
+<div class="jumbotron text-center">
+  <form>
+
+    <section>
+{{#each @model as |list|}}
+  <div>{{list.title}}</div>
+
+{{/each}}
+</section>
+
+    <Input
+      @type="text"
+      class="form-control"
+      placeholder="Nombre lista..."
+    />
+    <Input
+      @type="submit"
+      class="btn btn-success"
+      value="Crear lista"
+    />
+  </form>
+</div>
