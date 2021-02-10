@@ -1,3 +1,3 @@
-import FirebaseSerializer from 'emberfire/serializers/firebase'
+import FirebaseSerializer from 'emberfire/serializers/firestore';
 
 export default class ApplicationSerializer extends FirebaseSerializer{}
